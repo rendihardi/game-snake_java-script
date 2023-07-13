@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image/jungle2.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  #canvas {
+    margin-top: 50px;
+  }
+  
+  @font-face {
+    font-family: fontscore;
+    src: url('font/dogicapixelbold.ttf ');
+  }
+  #score {
+    font-family: fontscore;
+    color: #ECEA95;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 85px;
+	  font-weight:normal;
+}
+  #restart {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fefefe;
+    display: none;
+  }
+  
